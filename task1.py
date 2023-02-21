@@ -116,13 +116,13 @@ import matplotlib.pyplot as plt
 
 # Plot the training accuracy
 plt.plot(range(1, len(train_acc)+1), train_acc, 'b')
-plt.legend(['Training Accuracy'],loc='lower right')
-# plt.title('Training accuracy')
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy (%)')
-# plt.xticks(range(1, len(train_acc)+1))
-plt.savefig('train_accuracy_1.pdf')
-plt.show()
+# plt.legend(['Training Accuracy'],loc='lower right')
+# # plt.title('Training accuracy')
+# plt.xlabel('Epoch')
+# plt.ylabel('Accuracy (%)')
+# # plt.xticks(range(1, len(train_acc)+1))
+# plt.savefig('train_accuracy_1.pdf')
+# plt.show()
 
 
 # plt.plot(train_acc, label='Training Accuracy')
