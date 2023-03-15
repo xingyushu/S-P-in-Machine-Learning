@@ -283,7 +283,7 @@ def test( model, device, test_loader, epsilon ):
         #launch the fgsm_attack_module
         perturbed_data = fgsm_attack_module(data, epsilon, data_grad)
 
-        # run the model on perturbed_data
+        # run the model on perturbed_data 
         output = model(perturbed_data)
 
         final_pred = output.max(1, keepdim=True)[1] # get the index of the max log-probability
