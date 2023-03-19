@@ -99,7 +99,7 @@ def adversarial_train(model,train_loader, optimizer, criterion, epsilon):
             train_acc.append(accuracy)
 
     # Save the model after each epoch
-    torch.save(model.state_dict(), 'mnist_model_defense.pt')
+    torch.save(model.state_dict(), 'mnist_model_defense_045.pt')
 
     return model
 
@@ -110,9 +110,9 @@ def adversarial_train(model,train_loader, optimizer, criterion, epsilon):
 # Define the training parameters,loss function and optimizer
 # device = 'cuda' if torch.cuda.is_available() else 'cpu'
 batch_size = 64
-epochs = 10
-learning_rate = 1e-3
-epsilon = 0.2
+epochs = 200
+learning_rate = 0.001
+epsilon = 0.45
 
 # epsilons = [0, .05, .1, .15, .2, .25, .3, .35, .4, .45, .5]
 use_cuda = False
@@ -146,6 +146,7 @@ for epoch in range(1, epochs+1):
 
     print(f'Epoch {epoch} completed.')
 
+torch.save(model.state_dict(), 'mnist_model_defense_045_2.pt')
 
 
 # Plot the training accuracy
