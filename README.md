@@ -23,8 +23,8 @@ An simple  implementation  of adversial example
 
 # Literature
 
-[Privacy papers](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
+[Privacy Papers](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
 
-[Robustness Paper](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
+[Robustness Papers](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html)
 
 
