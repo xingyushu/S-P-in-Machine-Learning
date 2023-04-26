@@ -23,9 +23,7 @@ An simple  implementation  of adversial example
 
 # Literature
 
-### Privacy papers
-
-[Code](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
+[Privacy papers](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
 
 
 
