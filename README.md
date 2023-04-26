@@ -1,4 +1,6 @@
-# AE_examples
+# Machine Learning Security
+
+### AE_examples
 An simple  implementation  of adversial example
 
 
@@ -16,3 +18,14 @@ An simple  implementation  of adversial example
 
 
 [Adverserial Training](https://github.com/xingyushu/AE_examples/blob/main/task3.py)
+
+
+
+# Literature
+
+### Privacy papers
+
+[Code](https://github.com/HongshengHu/membership-inference-machine-learning-literature)
+
+
+
